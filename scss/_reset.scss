@@ -7,10 +7,17 @@
 
 // GENERAL
 body {
+    width: 100vw;
+    height: 100vh;
     font-family: $fuente-principal;
     background-color: map-get($palette, "fondoWeb");
     color: map-get($palette, "blanco");
     font-size: ($medida-estandar)-4px;
+}
+
+header {
+    width: 100vw;
+    height: 85vh;
 }
 
 img {
