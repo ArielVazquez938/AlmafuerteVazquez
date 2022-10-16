@@ -1,0 +1,45 @@
+// RESET
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+// GENERAL
+body {
+    font-family: $fuente-principal;
+    background-color: map-get($palette, "fondoWeb");
+    color: map-get($palette, "blanco");
+    font-size: ($medida-estandar)-4px;
+}
+
+img {
+    object-fit: cover;
+}
+
+nav {
+    div {
+        ul {
+            li {
+                background-color: map-get($palette, "nav-bar");
+                }
+                }
+                a {
+                    color: map-get($palette, "blanco") !important;
+                    font-size: $medida-estandar;
+                }
+            }
+        }
+    
+
+    .navbar-expand-lg {
+        background-color: map-get($palette, "nav-bar");
+    }
+
+    .dropdown-item:hover {
+        background-color: rgb(8, 40, 202);
+    }
+
+    .dropdown-menu {
+        background-color: map-get($palette, "nav-bar");
+    }

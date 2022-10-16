@@ -1,0 +1,22 @@
+.carousel {
+    position: relative;
+}
+
+nav {
+    transform: translateY(-400px);
+    opacity: .3;
+    height: 400px;
+    &:hover {
+        opacity: .8;
+        transition: .7s;
+    }
+}
+
+.foto-head {  
+    height: 400px;
+}
+
+h1, h3 {
+    font-weight: bold;
+    font-style: italic;
+}

@@ -1,0 +1,91 @@
+// CARDS ESCUELA
+.card-container {
+    position: relative;
+    width: 18rem;
+    perspective: 200rem;
+    height: 276px;
+
+    &:hover .card-front {
+        transform: rotateY(180deg);
+    }
+
+    &:hover .card-back {
+        transform: rotateY(0deg);
+    }
+
+    .card {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        transition: all 0.9s;
+        backface-visibility: hidden;
+        background-color: rgb(16, 112, 245);
+        color: map-get($palette, "blanco");
+        border-radius: 13px;
+        border: 2px solid rgb(0, 183, 255);
+    }
+
+    .card-back {
+        transform: rotateY(180deg);
+    }
+
+    .card-front {
+        height: 288px;
+        overflow-y: hidden;
+    }
+}
+
+.btn {
+    background-color: map-get($palette, "blanco");
+    color: rgb(16, 112, 245);
+    font-weight: bold;
+
+    &:hover {
+        background-color: map-get($palette, "whatsapp");
+    }
+}
+
+.btn-ig {
+    background-color: map-get($palette, "blanco");
+    color: rgb(16, 112, 245);
+
+    &:hover {
+        background: rgb(252, 176, 69);
+        background: linear-gradient(90deg, rgba(252, 176, 69, 1) 0%, rgba(253, 29, 224, 1) 68%, rgba(77, 58, 180, 1) 100%);
+        color: map-get($palette, "blanco");
+    }
+
+}
+
+.card-title {
+    text-align: center;
+    margin: 15px;
+    font-weight:bold;
+    font-style:italic;
+    font-size: 20px;
+}
+
+// CARDS JUGADORES
+.card-container-jg {
+    position: relative;
+    width: 18rem;
+    height: 288px;
+}
+
+.card-body-jg {
+    width: 100%;
+    height: 180px;
+    position: absolute;
+    transform: translateY(130px);
+    color: map-get($palette, "negro");
+    font-weight: bold;
+    opacity: 0;
+}
+
+.card-body-jg:hover {
+    background-color: transparentize($color: map-get($palette, "nav-bar"), $amount: .3);
+    color: map-get($palette, "blanco");
+    border-radius: 25px;
+    opacity: 1;
+    transition: .5s;
+}
