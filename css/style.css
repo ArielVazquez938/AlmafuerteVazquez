@@ -106,7 +106,11 @@ h1, h3 {
   position: relative;
   width: 18rem;
   height: 288px;
+<<<<<<< HEAD
   margin: 50px; }
+=======
+  margin-top: 100px; }
+>>>>>>> layout
 
 .card-body-jg {
   width: 100%;
