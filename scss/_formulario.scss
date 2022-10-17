@@ -21,20 +21,28 @@ div {
         font-style: italic;
     }
 
-    button {
-        background-color: map-get($palette, "fondoWeb");
-        border-radius: 5px;
-        border: none;
-        padding: 5px;
-        text-transform: uppercase;
-        color: map-get($palette, "negro");
-        font-weight: 700;
+        button {
+            background-color: map-get($palette, "fondoWeb");
+            border-radius: 5px;
+            border: none;
+            padding: 5px;
+            text-transform: uppercase;
+            color: map-get($palette, "negro");
+            font-weight: 700;
 
-        &:hover {
-            -webkit-box-shadow: 0px 0px 7px 10px rgb(26, 82, 213);
-            -moz-box-shadow: 0px 0px 7px 10px rgb(26, 82, 213);
-            box-shadow: 0px 0px 7px 10px rgba(26, 82, 213, 0.971);
-            transition: 0.5s;
+            &:hover {
+                -webkit-box-shadow: 0px 0px 7px 10px rgb(26, 82, 213);
+                -moz-box-shadow: 0px 0px 7px 10px rgb(26, 82, 213);
+                box-shadow: 0px 0px 7px 10px rgba(26, 82, 213, 0.971);
+                transition: 0.5s;
+            }
         }
-    }
+}
+
+.logo-formulario {
+    position: absolute;
+}
+
+legend {
+    text-align: center;
 }

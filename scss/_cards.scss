@@ -4,6 +4,7 @@
     width: 18rem;
     perspective: 200rem;
     height: 276px;
+    margin: 15px;
 
     &:hover .card-front {
         transform: rotateY(180deg);
