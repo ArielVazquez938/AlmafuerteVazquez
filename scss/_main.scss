@@ -1,0 +1,20 @@
+.enlaces {
+    text-decoration: none;
+    color: map-get($palette, "blanco");
+    font-weight: bold;
+    &:hover {
+        color: map-get($palette, "negro");
+        font-style: italic;
+    }
+}
+
+.lista {
+    list-style: none;
+}
+
+h2 {
+    font-size: $medida-estandar;
+    font-weight: bold;
+    font-style: italic;
+    color: map-get($palette, "negro");
+}
