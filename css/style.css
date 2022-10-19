@@ -40,23 +40,6 @@ nav div a {
 .dropdown-menu {
   background-color: #0052b0; }
 
-.enlaces {
-  text-decoration: none;
-  color: #fff;
-  font-weight: bold; }
-  .enlaces:hover {
-    color: #000;
-    font-style: italic; }
-
-.lista {
-  list-style: none; }
-
-h2 {
-  font-size: 20px;
-  font-weight: bold;
-  font-style: italic;
-  color: #000; }
-
 .carousel {
   position: relative; }
 
@@ -74,6 +57,23 @@ nav {
 h1, h3 {
   font-weight: bold;
   font-style: italic; }
+
+.enlaces {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold; }
+  .enlaces:hover {
+    color: #000;
+    font-style: italic; }
+
+.lista {
+  list-style: none; }
+
+h2 {
+  font-size: 20px;
+  font-weight: bold;
+  font-style: italic;
+  color: #000; }
 
 .card-container {
   position: relative;
