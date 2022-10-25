@@ -36,6 +36,10 @@ nav div a {
 .dropdown-menu {
   background-color: #0052b0; }
 
+footer div div p {
+  font-weight: bold;
+  font-style: italic; }
+
 .carousel {
   position: relative;
   width: 100vw; }
@@ -197,10 +201,10 @@ section div {
   width: 50px;
   height: 50px;
   margin: 0 20px;
-  opacity: .7; }
+  opacity: .6; }
   .logo:hover {
     opacity: .9;
-    transition: all .7s; }
+    transition: all .5s; }
 
 img {
   object-fit: cover; }
@@ -210,3 +214,42 @@ img {
   height: 300px;
   border: 2px solid #000;
   border-radius: 7px; }
+
+@media (max-width: 576px) {
+  .imagenes {
+    width: 400px;
+    height: 300px;
+    object-fit: cover; } }
+
+.texto {
+  width: 500px; }
+
+#carouselExampleSlidesOnly {
+  display: none; }
+
+header {
+  height: 20vh; }
+
+body {
+  width: 90vw; }
+
+@media (max-width: 768px) {
+  .imagenes {
+    width: 600px;
+    height: 400px;
+    object-fit: cover; } }
+
+.boton {
+  display: none; }
+
+@media (max-width: 992px) {
+  .imagenes {
+    width: 600px;
+    height: 400px;
+    object-fit: cover; } }
+
+@media (max-width: 1200px) {
+  .imagenes {
+    width: 500px;
+    height: 300px;
+    object-fit: cover; } }

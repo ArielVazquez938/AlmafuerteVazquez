@@ -1,0 +1,55 @@
+// Small devices (landscape phones, 576px and up)
+@media (max-width: 576px) {
+    .imagenes {
+        width: 400px;
+        height: 300px;
+        object-fit: cover;
+    }
+}
+
+    .texto {
+        width: 500px;
+    }
+
+    #carouselExampleSlidesOnly {
+        display: none;
+    }
+
+    header {
+        height: 20vh;
+    }
+
+    body {
+        width: 90vw;
+    }
+
+// Medium devices (tablets, 768px and up)
+@media (max-width: 768px) {
+    .imagenes {
+        width: 600px;
+        height: 400px;
+        object-fit: cover;
+    }
+}
+
+    .boton {
+        display: none;
+    }
+
+// Large devices (desktops, 992px and up)
+@media (max-width: 992px) {
+    .imagenes {
+        width: 600px;
+        height: 400px;
+        object-fit: cover;
+    }
+}
+
+// X-Large devices (large desktops, 1200px and up)
+@media (max-width: 1200px) {
+    .imagenes {
+        width: 500px;
+        height: 300px;
+        object-fit: cover;
+    }
+}

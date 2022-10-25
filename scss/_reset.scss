@@ -53,3 +53,14 @@ nav {
     .dropdown-menu {
         background-color: map-get($palette, "nav-bar");
     }
+
+    footer {
+        div {
+            div {
+                p {
+                    font-weight: bold;
+                    font-style: italic;
+                }
+            }
+        }
+    }
