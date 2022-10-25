@@ -36,9 +36,11 @@ nav div a {
 .dropdown-menu {
   background-color: #0052b0; }
 
-footer div div p {
-  font-weight: bold;
-  font-style: italic; }
+footer {
+  margin: 25px; }
+  footer div div p {
+    font-weight: bold;
+    font-style: italic; }
 
 .carousel {
   position: relative;
@@ -215,41 +217,58 @@ img {
   border: 2px solid #000;
   border-radius: 7px; }
 
-@media (max-width: 576px) {
+@media (min-width: 576px) and (max-width: 768px) {
   .imagenes {
-    width: 400px;
-    height: 300px;
-    object-fit: cover; } }
+    width: 250px;
+    height: 175px;
+    object-fit: cover; }
+  .texto {
+    width: 500px; }
+  header {
+    position: relative;
+    height: 50vh; }
+  nav {
+    background-color: #0068df !important;
+    opacity: 1; }
+  div .formulario {
+    width: 80vw; }
+  .boton {
+    display: none; } }
 
-.texto {
-  width: 500px; }
-
-#carouselExampleSlidesOnly {
-  display: none; }
-
-header {
-  height: 20vh; }
-
-body {
-  width: 90vw; }
-
-@media (max-width: 768px) {
-  .imagenes {
-    width: 600px;
-    height: 400px;
-    object-fit: cover; } }
-
-.boton {
-  display: none; }
-
-@media (max-width: 992px) {
+@media (min-width: 768px) and (max-width: 991px) {
   .imagenes {
     width: 600px;
     height: 400px;
-    object-fit: cover; } }
+    object-fit: cover; }
+  header {
+    position: relative;
+    height: 50vh; }
+  nav {
+    background-color: #0068df !important;
+    opacity: 1; }
+  .texto {
+    width: 600px; }
+  .boton {
+    display: none; } }
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .imagenes {
+    width: 300px;
+    height: 400px;
+    object-fit: cover; }
+  header {
+    height: 50vh; }
+  main {
+    width: 100vw; } }
 
 @media (max-width: 1200px) {
   .imagenes {
     width: 500px;
     height: 300px;
-    object-fit: cover; } }
+    object-fit: cover; }
+  header {
+    height: 50vh; }
+  body {
+    width: 100vw; }
+  .texto {
+    width: 300px; } }
